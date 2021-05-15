@@ -1,0 +1,83 @@
+body{
+    background-image: url(./Imagenes/PARQUE-DIVERSIONES.jpg);
+    background-position: center center;
+  /* Para que la imagen de fondo no se repita */
+  background-repeat: no-repeat;
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  background-attachment: fixed;
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+  background-size: cover;
+  /* Se muestra un color de fondo mientras se está cargando la imagen
+
+  de fondo o si hay problemas para cargarla */
+  background-color:rgb(125, 175, 233);
+  padding: 15px;
+  margin: 15px;
+}
+
+/*Titulos*/
+.primario{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(52, 154, 238);
+    
+    }
+.secundario{
+    
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: rgb(52, 154, 238);
+    
+}
+    h3{
+       font-size: 30px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+  
+    /*Arreglo de imagenes*/
+    .Pcosta{
+        width: 50%;
+        height:80%;
+        
+    }
+    .DisneySha{
+        width: 50%;
+        height:80%;
+        border-radius: 20px;
+    }
+    .Beto{
+        width: 50%;
+        height:80%;
+        
+    }
+    .imgContActBeto{
+        width: 50%;
+        height:80%;
+        border-radius: 20px;
+    }
+    .imgContActCosta{
+        width: 50%;
+        height:80%;
+        border-radius: 20px;
+    }
+    .imgContActDisney{
+        width: 50%;
+        height:80%;
+        border-radius: 20px;
+    }
+
+
+/*Arreglo de contenedores*/
+    .contenedorImagenes{
+        column-count: 3;
+        padding-top: 30px;
+        text-align: center;
+     }
+    .contenedorActividades{
+         padding-top: 20px;
+        text-align: center;
+    }
+ 
