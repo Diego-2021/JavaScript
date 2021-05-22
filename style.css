@@ -11,7 +11,7 @@ body{
 
   de fondo o si hay problemas para cargarla */
   background-color:rgb(125, 175, 233);
-  padding-top: 25px;
+  padding: 50px;
   margin: 15px;
 }
 p{
@@ -32,35 +32,39 @@ p{
     h2{
         color: white;
     }
-   p{
-       color: white;
-   }
-
+   
     /*Arreglo de imagenes*/
     .Pcosta{
         width: 55%;
-        height:80%;
-        
+              
     }
     .DisneySha{
         width: 60%;
-        height:80%;
         border-radius: 20px;
         
     }
     .Beto{
         width: 70%;
-        height:80%;
-        
+           
     }
     /*Arreglo de contenedores*/
     .contenedorImagenes{
-        background-color: white;
+        background-color:white;
         border-radius: 15px;
         column-count: 3;
         padding: 10px;
-       text-align: center;
+        text-align: center;
+        
        }
+       .container{
+        padding: 5%;
+       margin: 5%; 
+       background-color: rgb(130, 194, 247);
+       border-radius: 10px;
+    }
+    h1{
+        padding-bottom: 40px;
+    }
        footer {
    position:absolute;
    left:10px;
@@ -74,3 +78,4 @@ p{
    text-align: center;
    border-radius: 5px;
 }
+

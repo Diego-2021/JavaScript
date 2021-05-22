@@ -5,25 +5,25 @@
                 {
                     id: 1,
                     nombre: 'Big Tower',
-                    precio: 15,
+                    precio: 100,
                     imagen: './Imagenes/BigTower.png'
                 },
                 {
                     id: 2,
                     nombre: 'Nigloland',
-                    precio: 15,
+                    precio: 100,
                     imagen: './Imagenes/Nigloland.jpg'
                 },
                 {
                     id: 3,
                     nombre: 'Carrousel',
-                    precio: 5,
+                    precio: 50,
                     imagen: './Imagenes/ParcDuBocasseCarousel.jpg'
                 },
                 {
                     id: 4,
                     nombre: 'Festival',
-                    precio: 20,
+                    precio: 150,
                     imagen: './Imagenes/ParcDuBocasseFestival.png'
                 }
 
@@ -178,6 +178,27 @@
             // Inicio
             renderizarProductos();
 
-
         }
+        //Animacion de h1 con JQuery
+        
+     $("#contenido").hover(function(){
+        $(this).css("color","rgb(130, 194, 247)",);
+        $(this).css("font-size","60px",);
+     });
+     $("#contenido").mouseleave(function(){
+        $(this).css("color","White",);
+        $(this).css("font-size","40px",);
+     });
+//Animacion de Boton  con JQuery
+     $("#total").hover(function(){
+        $(this).css("color","Black",);
+        $(this).css("font-size","50px",);
+     });
+     $("#total").mouseleave(function(){
+        $(this).css("color","Black",);
+        $(this).css("font-size","30px",);
+     });
+
+
+
     
