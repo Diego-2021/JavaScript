@@ -29,13 +29,25 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
        
     }
+
+    h1{
+        padding-bottom: 40px;
+    }
     h2{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+    h3{
         color: white;
     }
+    
    
     /*Arreglo de imagenes*/
     .Pcosta{
-        width: 55%;
+        width: 55%;   
               
     }
     .DisneySha{
@@ -48,6 +60,16 @@ p{
            
     }
     /*Arreglo de contenedores*/
+    .MenuForm{
+        text-align: end;
+    }
+    .MenuForm a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    
     .contenedorImagenes{
         background-color:white;
         border-radius: 15px;
@@ -62,8 +84,23 @@ p{
        background-color: rgb(130, 194, 247);
        border-radius: 10px;
     }
-    h1{
-        padding-bottom: 40px;
+    .MenuForm{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+     .menu a{
+       color: white;
+       text-decoration: none;
+       font-size: 20px;
+   }
+    .menu{
+        text-align: end;
+        
+    }
+
+    .form-label{
+        color: white;
+        font-size: 20px;
+        
     }
        footer {
    position:absolute;
