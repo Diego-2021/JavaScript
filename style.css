@@ -29,13 +29,25 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
        
     }
+
+    h1{
+        padding-bottom: 40px;
+    }
     h2{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+    h3{
         color: white;
     }
+    
    
     /*Arreglo de imagenes*/
     .Pcosta{
-        width: 55%;
+        width: 55%;   
               
     }
     .DisneySha{
@@ -48,6 +60,21 @@ p{
            
     }
     /*Arreglo de contenedores*/
+    .MenuForm{
+        text-align: end;
+    }
+    .MenuForm a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+   .section{
+        text-align:end;
+        color: white;
+        background-color:rgb(125, 175, 233);
+    }
+         
+
     .contenedorImagenes{
         background-color:white;
         border-radius: 15px;
@@ -61,9 +88,53 @@ p{
        margin: 5%; 
        background-color: rgb(130, 194, 247);
        border-radius: 10px;
+       vertical-align: 5PX;
     }
-    h1{
-        padding-bottom: 40px;
+    /*Arreglos del contenedor de recepcion de informacion de API*/
+    .cotizacion{
+        color: white;
+        text-align: start;
+        
+    }
+    .cotizacion ul li{
+        list-style: none;
+        text-align: start;
+    }
+    
+    .MenuForm{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+    a{
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    
+    a:hover, a:focus {
+        background-size: 100% 2px;
+    }
+
+
+     .menu a{
+       color: white;
+       text-decoration: none;
+       font-size: 20px;
+
+   }
+    .menu{
+        text-align: end;
+        
+    }
+
+    .form-label{
+        color: white;
+        font-size: 20px;
+        
     }
        footer {
    position:absolute;
